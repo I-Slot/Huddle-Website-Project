@@ -1,0 +1,311 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 70px 50px 80px;
+
+}
+
+.try-btn{
+   height: 30px;
+   width: 110px;
+    margin: 2px;
+    border: 2px solid hsl(322, 100%, 66%);
+    border-radius: 15px;
+    color: hsl(322, 100%, 66%);
+    background-color: white;
+    font-family: 'Open Sans', sans-serif;
+    cursor: pointer;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section div .build{
+    margin-left: 30px;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+   font-family: 'Poppins', sans-serif; 
+   margin-top: 80px;
+}
+
+section div .prag{
+    text-align: center;
+    width: 550px;
+   margin-left: 140px;
+   line-height: 24px;
+   margin-top: 20px;
+   font-size: 18px;
+   font-family: sans-serif;
+}
+
+section div .get{
+    margin-top: 20px;
+    margin-left: 280px;
+    margin-bottom: 20px;
+    height: 50px;
+    width: 250px;
+    color: white;
+    background-color: hsl(322, 100%, 66%);
+    border-radius: 25px;
+    border: none;
+    box-shadow: 2px 2px 2px gray;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+main .second-sect{
+    display: grid;
+    grid-template-columns: repeat(1, ifr);
+    place-items: center;
+}
+
+main .icons{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+    gap: 2px; 
+    margin-top: 100px;
+
+}
+
+main div span{
+    display: inline-block;
+    font-weight: bolder;
+    font-size: 80px;
+    font-family: sans-serif;
+}
+
+.grow-together{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+    background-image: url(./images/bg-section-top-desktop-2.svg);
+    background-repeat:  no-repeat;
+    background-position: cover;
+    margin-top: 200px;
+   background-position: center  top;
+   background-size: cover;
+}
+
+.grow-together h1{
+    margin-left: 120px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.grow-together p{
+    margin-left: 120px;
+    width: 410px;
+    margin-top: 10px;
+    font-family: sans-serif;
+
+}
+
+.flowing-conversation{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    place-items: center;
+    margin-top: 200px;
+    background-image: url(./images/bg-section-top-desktop-2.svg);
+    background-repeat:  no-repeat;
+    background-position: center  top;
+    background-size: cover;
+ }
+
+
+.flowing-conversation img{
+    margin-left: 120px;
+}
+
+
+
+.flowing-conversation h1{
+    margin-left: 120px;
+    font-family: sans-serif;
+    font-weight: bold;
+    
+}
+
+
+.flowing-conversation p{
+    margin-left: 120px;
+    width: 490px;
+    margin-top: 10px;
+    font-family: sans-serif;
+
+}
+
+.your-users{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+    margin-top: 200px;
+}
+
+.your-users img{
+    margin-left: 120px;
+    
+}
+.your-users h1{
+    margin-left: 120px;
+    font-family: sans-serif;
+    font-weight: bold;
+
+}
+.your-users p{
+    margin-left: 120px;
+    width: 410px;
+    margin-top: 10px;
+    font-family: sans-serif;
+
+}
+
+.Ready-to{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    place-items: center;
+    margin: 200px;
+   background-image: url();
+   background-repeat:  no-repeat;
+   background-position: center  top;
+   background-size: cover;
+}
+
+.Ready-to h1{
+    margin-left: 170px;
+}
+
+.Ready-to button{
+    margin-top: 20px;
+    margin-left: 200px;
+    margin-bottom: 20px;
+    height: 50px;
+    width: 250px;
+    color: white;
+    background-color: hsl(322, 100%, 66%);
+    border-radius: 25px;
+    border: none;
+    box-shadow: 2px 2px 2px gray;
+    cursor: pointer;
+    font-weight: bold;
+
+}
+
+footer{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+    color: white;
+    height: 400px;
+    background-color:  hsl(192, 100%, 9%);
+    background-image: url();
+   background-repeat:  no-repeat;
+   background-position: center  top;
+   background-size: cover;
+}
+
+footer div:first-child{
+    margin-left: 120px;
+    width: 310px;
+    margin-top: 10px;
+    font-family: sans-serif;
+
+}
+
+footer div:first-child a{
+    color: white;
+}
+
+footer div:first-child p{
+    line-height: 30px;
+}
+
+footer div:first-child a{
+    color: white;
+    margin-top: 20px;
+}
+footer div:first-child a span{
+    color: white;
+    margin-left: 20px;
+    line-height: 30px;
+   
+}
+
+footer div img{
+    color: white;
+    filter:  brightness(0) invert(1);
+}
+
+footer .social-handles{
+    font-size: 50px;
+}
+
+footer .right{
+    margin-left: 120px;
+    width: 490px;
+    margin-top: 10px;
+    font-family: sans-serif;
+}
+
+ #button{
+    background-color: hsl(322, 100%, 66%);
+    width: 100px;
+    height: 40px;
+    border-radius: 8px;
+    cursor: pointer;
+
+}
+
+footer .right input{
+    height: 35px;
+    border-radius: 8px;
+   
+}
+
+
+@media (max-width: 800px){
+    body{
+        color: red;
+    }
+    main .second-sect, main .icons, 
+    .grow-together, .flowing-conversation,
+    .your-users, .Ready-to,  footer{
+       display: block;
+       width: 100%;
+    }
+
+    .main .second-sect{
+        display: grid;
+        grid-template-columns: 1fr;
+        place-items: center;
+        width: 100%;
+    }
+    section{
+        display: grid;
+        grid-template-columns: 1fr;
+        place-items: center;
+
+        /* margin-left: 200px; */
+        
+
+    }
+
+    .section div {
+        margin: auto;
+        font-size: 8px;
+        width: 30%;
+    }
+    
+
+}
+
